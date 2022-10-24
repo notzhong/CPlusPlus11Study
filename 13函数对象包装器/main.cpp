@@ -39,7 +39,7 @@ int main(int argv, char** args) {
     //将参数1，2绑定到函数foo上，但是使用placeholders::_1来对第一个参数进行占位
     auto bindFoo = bind(foo3, placeholders::_1, 1, 2);
     //这时调用一个参数即可。
-    cout << "bindFoo = " << bindFoo(3) << endl;
+    cout << "bindFoo = " << bindFoo(13) << endl;
 
     return argv;
 }
