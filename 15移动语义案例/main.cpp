@@ -7,8 +7,8 @@
 #include <map>
 
 #include <functional>
-
 using namespace std;
+
 
 class A {
 public:
